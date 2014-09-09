@@ -1,8 +1,13 @@
 
 <div class = "jumbotron center">
-<h1>AWESOMENESS Ver 1.0</h1>
-<div class ="container">
-<p><%= link_to 'Log in',"#", class: "btn btn-default btn-lg" %> 
-<p><%= link_to 'Sign up',"#", class: "btn btn-primary btn-lg" %></p>
+<h1>SAMPLE RUBY APP 1.0</h1>
+<div class = "container">
+	<% if user_signed_in? %>
+	#Welcomr to the member's area
+	<% else %>
+<p><%= link_to 'Log in',new_user_session_path, class: "btn btn-default btn-lg" %> 
+<p><%= link_to 'Sign up',new_user_registration_path, class: "btn btn-primary btn-lg" %></p>
+
 </div>
+<% end %>
 </div>
