@@ -8,7 +8,7 @@
   def profile
   end
 
-  def mainfeed
-  end
+  
+  
 end
 
