@@ -1,13 +1,31 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,900italic|Fugaz+One);
 
-$body-bg: 	#2980b9;
+$body-bg: 	#2c3e50;
 $font-family-sans-serif:	'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$navbar-default-bg: #e74c3c;
-$navbar-default-link-color: #ecf0f1;
-$brand-primary: #2c3e50;
-$jumbotron-bg: #f1c40f;
+$navbar-default-bg: #ecf0f1;
+$navbar-default-link-color: #2c3e50;
+$navbar-default-brand-hover-bg: #e74c3c;
+$brand-primary: #ecf0f1;
+$btn-primary-color: #2c3e50;
+$btn-primary-border: #16a085;
+$brand-success: #ecf0f1;
+$btn-success-color: #2c3e50;
+$btn-success-border: #16a085;
+$jumbotron-bg: #ecf0f1;
+
 @import 'bootstrap';
 
 .center {
 	text-align: center;
+}
+
+body
+{
+   font-family:'Open Sans', sans-serif;
+}
+
+#top1
+{
+  margin:50px 0px 0px 0px;
+  text-align:center;
 }
