@@ -81,5 +81,6 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   #Required for Heroku
+  #Set this to the actual host name
   config.action_mailer.default_url_options = { host: 'http://pinterester1.herokuapp.com/' }
 end

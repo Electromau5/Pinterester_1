@@ -1,7 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:400,900italic|Fugaz+One);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700italic);
 
 $body-bg: 	#95a5a6;
-$font-family-sans-serif:	'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family-sans-serif:	'Source Sans Pro';
 $navbar-default-bg: #ecf0f1;
 $navbar-default-link-color: #2c3e50;
 $navbar-default-brand-hover-bg: #e74c3c;
@@ -12,6 +12,7 @@ $brand-success: #ecf0f1;
 $btn-success-color: #2c3e50;
 $btn-success-border: #16a085;
 $jumbotron-bg: #ecf0f1;
+
 
 @import 'bootstrap';
 
@@ -29,3 +30,20 @@ body
   margin:50px 0px 0px 0px;
   text-align:center;
 }
+
+#top2
+{
+    margin: 50px 0px 0px 0px;
+    text-align:center;
+}
+
+#top3
+{
+    margin: 50px 0px 0px 0px;
+    text-align:center;
+}
+
+#head
+    {
+        text-align: center;
+    }
